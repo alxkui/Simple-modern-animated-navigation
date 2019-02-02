@@ -1,0 +1,15 @@
+/* Animation styles */
+
+@keyframes swoosh {
+	0% {
+		margin-left: 0;
+	}
+
+	100% {
+		margin-left: 25px;
+	}
+}
+
+#menu-list ul li {
+	animation: swoosh ease 0.5s forwards;
+}

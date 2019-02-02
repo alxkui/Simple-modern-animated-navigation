@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	font-size: 105%;
+}
+
+/* Preset styles */
+
+h1 {
+	font-size: 2.5em;
+}
+
+button {
+	border: none;
+	background: none;
+}
+
+/* Layout styles */
+
+.pull-right {
+	float: right;
+}
+
+/* Theme styles */
+
+#menu-list {
+	display: none;
+	position: fixed;
+	background: white;
+	width: 100%;
+	height: 100%;
+}
+
+#menu-list ul {
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#menu-list ul li {
+	display: block;
+	margin: 5% 0%;
+}
+
+#menu-list ul li a {
+	letter-spacing: 1.5px;
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	font-size: 2.5em;
+}
+
+.menu-btn {
+	z-index: 1;
+	position: absolute;
+	top: 25px;
+	right: 15px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bolder;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+#header {
+	background: #111;
+	width: 100%;
+	height: 100vh;
+	border-radius: 2px;
+	position: relative;
+}
+
+#header h1 {
+	color: white;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
